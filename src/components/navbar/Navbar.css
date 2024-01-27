@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container{
+    height: 7rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3.5rem 2fr 1.7fr 2fr 2fr 4fr 1.5fr 1.5fr 3rem;
+   
+}
+
+.nav-logo{
+    display: grid;
+    grid-column: 2/3;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-items-bus-tickets{
+    display: grid;
+    align-items: center;
+    padding: 19px;
+    background-color: rgb(240, 50, 50);
+    border-radius: 20%;
+    height: 6rem;
+    margin-top: 0.5rem;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav-items-bus-tickets img{
+    padding-left: 20px;
+    filter: brightness(0) invert(1);
+    cursor: pointer;
+}
+
+.nav-items-cab{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 19px;
+    height: 3.5rem;
+    margin-top: 0.5rem;
+}
+
+.nav-items-cab img{
+    padding-left: 20px;
+    filter: grayscale(1) brightness(0);
+    cursor: pointer;
+}
+
+.nav-items-train{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 19px;
+    height: 3.5rem;
+    margin-top: 0.5rem;
+}
+
+.nav-items-train img{
+    padding-left: 20px;
+    filter: grayscale(1) brightness(0);
+    cursor: pointer;
+}
+
+.nav-care{
+    display:flex ;
+    flex-direction: row;
+    display: grid;
+    grid-column: 7/8;
+    justify-content: center;
+    align-items: center;
+}
+.menu-link{
+    display: none;
+    height: 14rem;
+}
+.menu-link{
+    display: none;
+}
+.hamberger-menu{
+    display: none;
+}
+.account{
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    grid-column: 8/9;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-care{
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+}
+
+.care{
+    color: black;
+    cursor: pointer;
+}
+
+
+/* Responsive Part Start */
+/* Responsive Navbar with HambergerMenu */
+
+
+@media (max-width:1184px){
+    .nav-container{
+        width: 80rem;
+        display: grid;
+        grid-template-rows: 0rem 2fr 2fr 2fr 2fr 3fr 2fr 2fr 0rem;
+    }
+
+    .care{
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .account{
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .nav-logo{
+        margin-top: 2rem;
+    }
+}
+
+@media(max-width:1150px){
+    .nav-care{
+        display: grid;
+        grid-column: 6/7;
+    }
+    .account{
+        display: grid;
+        grid-column: 7/8;
+    }
+}
+
+@media(max-width:950px){
+    .nav-items-bus-tickets{
+        display: none;
+    }
+    .nav-items-cab{
+        display: none;
+    }
+    .nav-items-train{
+        display: none;
+    }
+    .nav-care{
+        display: none;
+    }
+    .account{
+        display: block;
+    }
+    .hamberger-menu{
+display: grid;
+grid-column: 1/2;      
+margin-top: 2rem;
+font-size: xx-large;
+justify-content: center;
+align-items: center;
+   }
+
+    .mobile-menu{
+        height: 23rem;
+        width: 79rem;
+        background-color:darkgrey;
+    }
+.bar-list {
+    font-size: xx-large;
+        align-items: center;
+        justify-content: center;
+        padding-left: 3rem;
+        padding-top: 1rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .bar-list img{
+        padding-right: 1rem;
+        height: 35px;
+    }
+    .bar-list span{
+        padding-left: 3rem;
+    }
+    .nav-logo{
+        padding-left: 2rem;
+    }
+}
+@media(max-width:440px){
+.account{
+    display: grid;
+    grid-column: 6/7;
+}
+}
+@media(max-width:310px){
+    .account{
+        display: grid;
+        grid-column: 4/5;
+    }
+}

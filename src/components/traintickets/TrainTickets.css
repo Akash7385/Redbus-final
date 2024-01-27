@@ -1,0 +1,106 @@
+.train-main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.train-background{
+    height: 60vh;
+}
+
+.train-right {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.train-left{
+    width: 60%;
+}
+
+ .train-left img{
+    height: 20rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: row-reverse;
+} 
+
+.train-text{
+    font-size: 2.5rem;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+}
+
+.redbus{
+    color: red;
+}
+
+.color b{
+    color: crimson;
+}
+
+/* Responsive Part Start */
+@media(max-width:1252px){
+    .train-background{
+        height: 83vh;
+    }
+}
+@media(max-width:1127px){
+    .train-background{
+        height: 83vh;
+    }
+}
+@media(max-width:1050px){
+    .train-background{
+        height: 60vh;
+    }
+}
+@media(max-width:1000px){
+    .train-background{
+        height: 82vh;
+    }
+}
+@media(max-width:950px){
+    .train-background{
+        height: 95vh;
+    }
+    .train-left{
+        padding-left: 5rem;
+    }
+    .train-text{
+        padding-left: 4rem;
+    }
+}
+@media(max-width:925px){
+    .train-background{
+        height: 100vh;
+    }
+}
+@media(max-width:925px){
+    .train-background{
+        height: 110vh;
+    }
+}
+@media(max-width:865px){
+    .train-background{
+        height: 80vh;
+    }
+}
+@media(max-width:836px){
+    .train-background{
+        height: 110vh;
+    }
+}
+@media(max-width:713px){
+    .train-background{
+        height: 160vh;
+    }
+}
+@media(max-width:400px){
+    .train-background{
+       height: fit-content;
+}
+}

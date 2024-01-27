@@ -1,0 +1,174 @@
+.refer-img img{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+.cab-rental-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstsection{
+    height: 100vh;
+}
+
+.right-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-container{
+    width: 90%;
+}
+.cab-text{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.redbus{
+    color: red;
+}
+
+.down-text{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 0.875rem 1rem;
+    gap: 0.75rem;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(216, 78, 85);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.logos{
+    margin: 10px;
+}
+
+.cab-train{
+    margin-top: 13px;
+}
+
+.ticket{
+    color: black;
+}
+
+.cab-train img{
+    filter: grayscale(1) brightness(0);
+}
+
+u{
+    color: black;
+}
+
+.car{
+    display: flex;
+    margin: 10px;
+    gap: 20px;
+}
+
+.rental{
+position: relative;
+top: 10px;
+}
+.car-time{
+    display: flex;
+    margin: 10px;
+    gap: 20px;
+}
+
+.airport{
+    display: flex;
+    margin: 15px;
+    gap: 20px;
+}
+
+/* Responsive Part Start */
+@media(max-width:1252px){
+    .cab-rent{
+        height: 190vh;
+    }
+}
+@media(max-width:1127px){
+    .cab-rent{
+        height: 215vh;
+    }
+    .cab-text{
+        margin-left: 4rem
+    }
+    .refer-img{
+        width: 1100px;
+    }
+}
+@media(max-width:1080px){
+    .cab-rent{
+        height: 225vh;
+    }
+}
+@media(min-width:1000px){
+    .cab-rent{
+        height: 230vh;
+    }
+}
+@media(max-width:950px){
+    .cab-rent{
+        height: 260vh;
+    }
+}
+@media(max-width:925px){
+    .cab-rent{
+        height: 240vh;
+    }
+    .down-items{
+        padding-left: 7rem;
+    }
+    .cab-text{
+        padding-left: 5rem;
+    }
+}
+@media(max-width:865px){
+    .cab-rent{
+        height: 185vh;
+    }
+}
+@media(max-width:836px){
+    .cab-rent{
+        height: 195vh;
+    }
+}
+@media(max-width:830px){
+    .down-items{
+        padding-left: 9rem;
+    }
+    .cab-text{
+        padding-left: 7rem;
+    }
+}
+@media(max-width:830px){
+    .down-items{
+        padding-left: 11rem;
+    }
+    .cab-rent{
+        height: 260vh;
+    }
+}
+@media(max-width:760px){
+    .down-items{
+        padding-left: 15rem;
+    }
+    .cab-text{
+        padding-left: 12rem;
+    }
+}
+@media(max-width:713px){
+    .cab-rent{
+        height: 205vh;
+    }
+}
+
